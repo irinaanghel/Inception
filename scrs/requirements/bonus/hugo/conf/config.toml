@@ -4,5 +4,5 @@ paginate = 8
 canonifyURLs = true
 
 [params]
-  author = "Vincent Bachelet"
+  author = "Irina Anghel"
   description = "Dedicated hugo service for inception project"

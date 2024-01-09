@@ -1,5 +1,5 @@
 #baseURL = "https://aanghel.42.fr/static"
-title = "42 fitness"
+title = "42 Inception"
 theme = "m10c"
 paginate = 8
 canonifyURLs = true
@@ -17,10 +17,10 @@ canonifyURLs = true
     weight = 2
 
 [params]
-  author = "Vincent Bachelet"
-  description = "Student @42Paris && fitness addict"
+  author = "Irina Anghel"
+  description = "Student @42RomaLuiss"
   menu_item_separator = " - "
   [[params.social]]
     icon = "github"
     name = "Github"
-    url = "https://github.com/vincentbachelet-collab"
+    url = "https://github.com/irinaanghel"

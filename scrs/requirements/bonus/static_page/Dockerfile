@@ -19,7 +19,7 @@ COPY    ./conf/config.toml        /var/hugo/static/config.toml
 COPY    conf/presentation.md    /var/hugo/static/content/posts/presentation.md
 COPY    conf/about.md           /var/hugo/static/content/about/index.md
 COPY    conf/avatar.jpg         /var/hugo/static/themes/m10c/static/avatar.jpg
-COPY	conf/42fitness.jpg		/var/hugo/static/themes/m10c/static/42fitness.jpg
+COPY	conf/docker.png		/var/hugo/static/themes/m10c/static/docker.png
 
 EXPOSE 1313
 
