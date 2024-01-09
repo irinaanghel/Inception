@@ -43,13 +43,5 @@ echo -e $PURPLE "Installing docker..."
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 echo -e $GREEN "Done." $BLANK
 
-echo -e $PURPLE "Creaate dir for docker"
-sudo cd ../home
-git clone https://github.com/aanghel/inception.git
-mkdir -p /home/inception/data/mysql
-chmod -R 777 /home/inception/data/mysql
-mkdir -p /home/inception/data/wordpress
-chmod -R 777 /home/inception/data/wordpress
-
 echo -e $PURPLE "Re start" $BLANK
 sudo reboot
