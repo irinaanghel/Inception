@@ -15,11 +15,11 @@ vclean:
 	docker volume rm -f srcs_mariadb_data
 
 clean:
-	@docker stop $(docker ps -qa);\
-	docker rm $(docker ps -qa);\
-	docker rmi -f $(docker images -qa);\
-	docker network rm $(docker network ls -q) 2>/dev/null
+	docker stop $$(docker ps -qa);\
+	docker rm $$(docker ps -qa);\
+	docker rmi -f $$(docker images -qa);\
+	docker network rm $$(docker network ls -q) 2>/dev/null
 
-fclean: down clean vclean
+fclean: clean vclean
 
 re: fclean run
